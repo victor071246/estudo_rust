@@ -1,0 +1,52 @@
+   0.021438418s  INFO prepare_target{force=false package_id=ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum) target="ex_fixacao4_máximo_divisor_comum"}: cargo::core::compiler::fingerprint: fingerprint error for ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum)/Check { test: false }/TargetInner { name: "ex_fixacao4_máximo_divisor_comum", doc: true, ..: with_path("/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum/src/main.rs", Edition2024) }
+   0.021464987s  INFO prepare_target{force=false package_id=ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum) target="ex_fixacao4_máximo_divisor_comum"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum/target/debug/.fingerprint/ex_fixacao4_máximo_divisor_comum-ce6a60e4785dbe08/bin-ex_fixacao4_máximo_divisor_comum`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+   0.022297815s  INFO prepare_target{force=false package_id=ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum) target="ex_fixacao4_máximo_divisor_comum"}: cargo::core::compiler::fingerprint: fingerprint error for ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum)/Check { test: true }/TargetInner { name: "ex_fixacao4_máximo_divisor_comum", doc: true, ..: with_path("/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum/src/main.rs", Edition2024) }
+   0.022311450s  INFO prepare_target{force=false package_id=ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum) target="ex_fixacao4_máximo_divisor_comum"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum/target/debug/.fingerprint/ex_fixacao4_máximo_divisor_comum-cc99b2f09e847cce/test-bin-ex_fixacao4_máximo_divisor_comum`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+    Checking ex_fixacao4_máximo_divisor_comum v0.1.0 (/home/v/Programacao/Rust/ex_fixacao4_maximo_divisor_comum)
+error: could not compile `ex_fixacao4_máximo_divisor_comum` (bin "ex_fixacao4_máximo_divisor_comum") due to 1 previous error; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `ex_fixacao4_máximo_divisor_comum` (bin "ex_fixacao4_máximo_divisor_comum" test) due to 1 previous error; 1 warning emitted

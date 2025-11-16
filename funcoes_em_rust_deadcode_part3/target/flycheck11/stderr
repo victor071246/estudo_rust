@@ -1,5 +1,8 @@
-   0.029030937s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3)/Check { test: false }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/src/main.rs", Edition2024) }
-   0.029114101s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/target/debug/.fingerprint/funcoes_em_rust-cfaf8a28057c5e3b/bin-funcoes_em_rust`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.023744540s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3)/Check { test: false }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/src/main.rs", Edition2024) }
+   0.023784534s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/target/debug/.fingerprint/funcoes_em_rust-cfaf8a28057c5e3b/bin-funcoes_em_rust`
 
 Caused by:
     No such file or directory (os error 2)
@@ -22,8 +25,8 @@ Stack backtrace:
   14: <unknown>
   15: __libc_start_main
   16: <unknown>
-   0.031284268s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3)/Check { test: true }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/src/main.rs", Edition2024) }
-   0.031320645s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/target/debug/.fingerprint/funcoes_em_rust-dc83664cec987b89/test-bin-funcoes_em_rust`
+   0.025231884s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3)/Check { test: true }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/src/main.rs", Edition2024) }
+   0.025253424s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode_part3/target/debug/.fingerprint/funcoes_em_rust-dc83664cec987b89/test-bin-funcoes_em_rust`
 
 Caused by:
     No such file or directory (os error 2)

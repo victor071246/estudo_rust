@@ -1,5 +1,8 @@
-   0.042583412s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode)/Check { test: false }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode/src/main.rs", Edition2024) }
-   0.042635919s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode/target/debug/.fingerprint/funcoes_em_rust-cfaf8a28057c5e3b/bin-funcoes_em_rust`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.027085065s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode)/Check { test: false }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode/src/main.rs", Edition2024) }
+   0.027125069s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode/target/debug/.fingerprint/funcoes_em_rust-cfaf8a28057c5e3b/bin-funcoes_em_rust`
 
 Caused by:
     No such file or directory (os error 2)
@@ -22,8 +25,8 @@ Stack backtrace:
   14: <unknown>
   15: __libc_start_main
   16: <unknown>
-   0.043955922s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode)/Check { test: true }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode/src/main.rs", Edition2024) }
-   0.044559660s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode/target/debug/.fingerprint/funcoes_em_rust-dc83664cec987b89/test-bin-funcoes_em_rust`
+   0.028138495s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode)/Check { test: true }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/funcoes_em_rust_deadcode/src/main.rs", Edition2024) }
+   0.028162420s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/funcoes_em_rust_deadcode/target/debug/.fingerprint/funcoes_em_rust-dc83664cec987b89/test-bin-funcoes_em_rust`
 
 Caused by:
     No such file or directory (os error 2)
@@ -47,6 +50,6 @@ Stack backtrace:
   15: __libc_start_main
   16: <unknown>
     Checking funcoes_em_rust v0.1.0 (/home/v/Programacao/Rust/funcoes_em_rust_deadcode)
-error: could not compile `funcoes_em_rust` (bin "funcoes_em_rust") due to 2 previous errors; 2 warnings emitted
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `funcoes_em_rust` (bin "funcoes_em_rust" test) due to 2 previous errors; 2 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `funcoes_em_rust` (bin "funcoes_em_rust") due to 2 previous errors; 2 warnings emitted

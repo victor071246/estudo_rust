@@ -1,0 +1,52 @@
+   0.041973828s  INFO prepare_target{force=false package_id=tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust) target="tarefas_rust"}: cargo::core::compiler::fingerprint: fingerprint error for tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust)/Check { test: false }/TargetInner { name: "tarefas_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/tarefas_rust/src/main.rs", Edition2024) }
+   0.042126477s  INFO prepare_target{force=false package_id=tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust) target="tarefas_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/tarefas_rust/target/debug/.fingerprint/tarefas_rust-5358f63c000904d8/bin-tarefas_rust`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+   0.043591851s  INFO prepare_target{force=false package_id=tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust) target="tarefas_rust"}: cargo::core::compiler::fingerprint: fingerprint error for tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust)/Check { test: true }/TargetInner { name: "tarefas_rust", doc: true, ..: with_path("/home/v/Programacao/Rust/tarefas_rust/src/main.rs", Edition2024) }
+   0.043650518s  INFO prepare_target{force=false package_id=tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust) target="tarefas_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/v/Programacao/Rust/tarefas_rust/target/debug/.fingerprint/tarefas_rust-eebfa72805aa218e/test-bin-tarefas_rust`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+    Checking tarefas_rust v0.1.0 (/home/v/Programacao/Rust/tarefas_rust)
+error: could not compile `tarefas_rust` (bin "tarefas_rust") due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `tarefas_rust` (bin "tarefas_rust" test) due to 2 previous errors

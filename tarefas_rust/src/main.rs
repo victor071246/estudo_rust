@@ -13,10 +13,34 @@ fn count(){
     io::stdin().read_line(&mut entrada_num).expect("Erro ao inserir o número");
 
     let num = convert_to_int(&entrada_num);
+        
+    for i in 1..(num+1){
+        println!("Exibindo {}", i);
+    }
 
-    println!("O número inserido foi: {}", num)
+}
+
+fn for1(){
+
+
+}
+
+fn count_down(){
+
+    let mut entrada_num = String::new();
+
+    println!("Insira um número para ser lido: ");
+    io::stdin().read_line(&mut entrada_num).expect("Erro ao inserir o número");
+
+    let num = convert_to_int(&entrada_num);
+
+    for i in (1..entrada_num+1).rev(){
+        println!("Exibindo {}", i);
+    }
 }
 
 fn main(){
-    count();
+    // count();
+    // for1();
+    count_down();
 }

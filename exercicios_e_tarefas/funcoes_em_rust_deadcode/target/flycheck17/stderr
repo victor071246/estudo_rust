@@ -1,0 +1,61 @@
+    Blocking waiting for file lock on package cache
+   0.025722400s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode)/Check { test: false }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("C:\\programacao\\Rust\\funcoes_em_rust_deadcode\\src\\main.rs", Edition2024) }
+   0.025783600s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\programacao\Rust\funcoes_em_rust_deadcode\target\debug\.fingerprint\funcoes_em_rust-63307a0b7edc30b8\bin-funcoes_em_rust`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.041128800s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint: fingerprint error for funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode)/Check { test: true }/TargetInner { name: "funcoes_em_rust", doc: true, ..: with_path("C:\\programacao\\Rust\\funcoes_em_rust_deadcode\\src\\main.rs", Edition2024) }
+   0.041159200s  INFO prepare_target{force=false package_id=funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode) target="funcoes_em_rust"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\programacao\Rust\funcoes_em_rust_deadcode\target\debug\.fingerprint\funcoes_em_rust-3b7eabe804d18b92\test-bin-funcoes_em_rust`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking funcoes_em_rust v0.1.0 (C:\programacao\Rust\funcoes_em_rust_deadcode)
+error: could not compile `funcoes_em_rust` (bin "funcoes_em_rust") due to 2 previous errors; 2 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `funcoes_em_rust` (bin "funcoes_em_rust" test) due to 2 previous errors; 2 warnings emitted

@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "resolution"
+name = "ex_basico"
 version = "0.1.0"

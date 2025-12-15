@@ -1,0 +1,6 @@
+[package]
+name = "encontrar_duplicatas_dentro_vetor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

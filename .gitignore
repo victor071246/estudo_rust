@@ -1,8 +1,14 @@
-/target
+# Ignorar diretórios de build do Rust
+target/
+**/target/
 
+# Arquivos de editor/IDE
+*.swp
+*.swo
+*.log
+.vscode/
+.idea/
 
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

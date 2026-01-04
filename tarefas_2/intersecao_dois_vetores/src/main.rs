@@ -21,6 +21,6 @@ fn main() {
     let resultado = interseccao(nums1, nums2);
 
     // Imprimir o resultado
-    println!("Intersecção: {:?}", resultado);
+    println!("Intersecção: {:?}", resultado);  
 
 }

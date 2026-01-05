@@ -1,0 +1,6 @@
+[package]
+name = "retornar_subconjuntos_possiveis"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "aplicacao_mercado_imob"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

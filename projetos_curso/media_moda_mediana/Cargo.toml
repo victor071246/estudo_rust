@@ -1,0 +1,6 @@
+[package]
+name = "media_moda_mediana"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

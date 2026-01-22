@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 fn media(numeros: &Vec<i32>) -> f64 {
 
     let mut soma = 0;
@@ -23,7 +25,17 @@ fn mediana(numeros: &Vec<i32>) -> f64 {
 }
 
 fn moda(numeros: Vec<i32>) -> i32 {
+
+    let mut hash_map = HashMap::new();
+    for i in numeros{
+        let contar = map.entry(i).or_insert(0);
+        *contar += 1;
+
+        pritnln!("{}" map)
+    }
+
     0
+
 }
 
 

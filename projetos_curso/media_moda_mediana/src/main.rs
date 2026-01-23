@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::{collections::HashMap, hash::Hash};
 
 fn media(numeros: &Vec<i32>) -> f64 {
 
@@ -24,17 +24,27 @@ fn mediana(numeros: &Vec<i32>) -> f64 {
     numeros_sorted[numero_meio] as f64
 }
 
-fn moda(numeros: Vec<i32>) -> i32 {
+fn moda(numeros: &Vec<i32>) -> i32 {
 
-    let mut hash_map = HashMap::new();
+    let mut map = HashMap::new();
     for i in numeros{
         let contar = map.entry(i).or_insert(0);
         *contar += 1;
 
-        pritnln!("{}" map)
     }
 
-    0
+    println!("{:?}", map);
+
+    let mut maior_valor = 0;
+    let mut maior_key = 0;
+    for (key, value) in map{
+        if value > maior_valor{
+            maior_valor = value;
+            maior_key = *key;
+        }
+    }
+
+    maior_key
 
 }
 
@@ -45,5 +55,8 @@ fn main() {
     let numeros = vec![0, 4, 6, 3, 4, 1, 4, 5, 2, 1];
     println!("{}", media(&numeros));
 
-    println!("{}", mediana(&numeros))
+    println!("{}", mediana(&numeros));
+    //moda(&numeros);
+
+    println!("A moda é: {}", moda(&numeros));
 }

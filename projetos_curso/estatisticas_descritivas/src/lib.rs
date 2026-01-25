@@ -2,12 +2,12 @@ use std::collections::HashMap;
 
 // Struct para armazenar dados e fazer os cálculos
 pub struct EstatisticasDescritivas{
-    numeros: Vec<f64>,
+    numeros: Vec<i64>,
 }
 
 impl EstatisticasDescritivas{
     // Construtor para inicializar a struct com um vetor de numeros
-    pub fn new(numeros: Vec<f64>) -> Self {
+    pub fn new(numeros: Vec<i64>) -> Self {
         EstatisticasDescritivas { numeros }
     }
 
@@ -40,8 +40,8 @@ impl EstatisticasDescritivas{
 
     }
 
-    pub fn moda (&self) -> Vec<f64>{
-        let mut frequencia: HashMap<f64, i32> = HashMap::new();
+    pub fn moda (&self) -> Vec<i64>{
+        let mut frequencia: HashMap<i64, i32> = HashMap::new();
 
         //Contagem de ocorrências
         for &numero in self.numeros.iter(){
@@ -52,8 +52,27 @@ impl EstatisticasDescritivas{
         let max_freq = frequencia.values().cloned().max().unwrap_or(0);
 
         // Filtrando números de maior frequência
-        let moda: Vec<f64> = frequencia.into_iter().filter(|&(|_, freq)|freq == max_freq).map(|(num, _)| num).collect();
+        let moda: Vec<i64> = frequencia.into_iter().filter(|&(|_, freq)|freq == max_freq).map(|(num, _)| num).collect();
 
         moda
     }
+}
+
+// Função que executa as estatísticas descritivas
+pub fn executar_estatisticas_descritivas(numeros: Vec<i64>) {
+    let estatisticas = EstatisticasDescritivas::new(numeros.clone());
+
+    match estatisticas.mediana(){
+
+        Ok(mediana) => println!("A mediana é: {:.2}", mediana),
+        Err(err) => println!("Erro ao calcular mediana: {}", err)
+    }
+
+    let nuemros_f64: Vec<f64> = numeros.iter().map(|&x| x as f64).collect();
+    let media_resultado = EstatisticasDescritivas::media(&nuemros_f64);
+    println!("Media: {:.2}", media_resultado);
+
+    let moda_resultado = estatisticas.moda();
+    println!("Moda: {:?}", moda_resultado);
+    
 }

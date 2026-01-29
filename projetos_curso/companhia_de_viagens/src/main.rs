@@ -14,7 +14,8 @@ fn main() {
 
 // Adicionar alguns vôos
 
-    adicionar_voo(&mut dados_voos, String::from("Vôo101"), String::from("São Paulo"), String::from("Rio de Janeiro"), String::from("30/06/2020"), String::from("09:00"));
+    adicionar_voo(&mut dados_voos, String::from("Vôo101"), String::from("São Paulo"), String::from("Rio de Janeiro"), String::from("30/06/2020"), String::from("09:00\n"));
+
     adicionar_voo(&mut dados_voos, String::from("Vôo102"), String::from("Rio de Janeiro"), String::from("São Paulo"), String::from("01/07/2020"), String::from("09:00"));
 
 // Exibir os passageiros
